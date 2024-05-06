@@ -1,0 +1,1097 @@
+repo_name: assistaplus/assp-monoid
+report_id: 1fca4dd042ca35a3b11fc83bd825bd87
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:40:23+00:00'
+requested_by: munkim
+provider: github
+branch: main
+detected_tools_count: 80
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/assistaplus/assp-monoid
+  detection_source: Repo Metadata
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/assistaplus/assp-monoid
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.100.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: PrimeReact
+  description: A collection of rich UI components for React
+  website_url: https://www.primefaces.org/primereact/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/8766/8KpRJctC_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/monoid_backend/core/cassandra.py
+  detection_source: monoid-backend/monoid_backend/core/cassandra.py
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-30 23:33:14.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid
+  detection_source: Repo Metadata
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/pyproject.toml
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/yarn.lock
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Heroku
+  description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
+    developer experience.
+  website_url: https://www.heroku.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/Procfile
+  detection_source: monoid-frontend/Procfile
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.10
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/package.json
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.3.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 4.5.3
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 6.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@fortawesome/free-brands-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-brands-svg-icons
+  version: 6.4.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18314/default_8c7316b1ad57adb78204233fc4608152c3b49ac6.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@fortawesome/free-regular-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-regular-svg-icons
+  version: 6.4.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18157/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 6.4.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@fortawesome/react-fontawesome"
+  description: Official React component for Font Awesome 5
+  package_url: https://www.npmjs.com/@fortawesome/react-fontawesome
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16936/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.200
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.60.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.60.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 19.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  version: 3.5.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.32.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: react-datepicker
+  description: A simple and reusable datepicker component for React
+  package_url: https://www.npmjs.com/react-datepicker
+  version: 4.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17239/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: react-syntax-highlighter
+  description: Syntax highlighting component for react with prismjs or highlightjs
+    ast using inline styles
+  package_url: https://www.npmjs.com/react-syntax-highlighter
+  version: 15.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-frontend/yarn.lock
+  detection_source: monoid-frontend/package.json
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: asyncpg
+  description: An asyncio PostgreSQL driver
+  package_url: https://pypi.org/project/asyncpg
+  version: 0.28.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20348/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.28.63
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 2.23.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: google-auth-oauthlib
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth-oauthlib
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20240/default_8a23a3884b3073b5e1695e2320e46529e60882b3.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: greenlet
+  description: Lightweight in-process concurrent programming
+  package_url: https://pypi.org/project/greenlet
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.24.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: invoke
+  description: Pythonic task execution
+  package_url: https://pypi.org/project/invoke
+  version: 2.2.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20170/default_61c5587692a15177a925ec9469e353b56dcc7b6a.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: sentry-sdk
+  description: Python client for Sentry
+  package_url: https://pypi.org/project/sentry-sdk
+  version: 1.32.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19998/default_b31141ac99e60278dc869f5a0490a63444b590d7.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.22.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/assistaplus/assp-monoid/blob/main/monoid-backend/poetry.lock
+  detection_source: monoid-backend/pyproject.toml
+  last_updated_by: Mun Kim
+  last_updated_on: 2023-11-29 23:19:38.000000000 Z
